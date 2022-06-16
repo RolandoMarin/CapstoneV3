@@ -1,0 +1,15 @@
+{
+    "posts": [
+        {
+            "id" : 2,
+            "firstName":"Rolando",
+            "lastName": "Marin",
+            "email": "RolandogalvanM@Outlook.com",
+            "mobile":"3601231234"
+        }
+    ],
+    "signupUsers":[],
+    "profile":{
+        "name":"typicode"
+    }
+}

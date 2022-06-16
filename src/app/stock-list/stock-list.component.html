@@ -3,7 +3,7 @@
         <div class="header">
              <h2>Welcome!</h2>
         </div>
-
+<!--Trending stocks that will be displayed scrolling-->
 <div class="sub-header">
     <marquee behavior = "scroll"  loop="infinite" direction ='left'>
     <div class="row">
@@ -26,7 +26,8 @@
 
 <div class="contianer">
 
-    <!--table-->
+    <!--table full of stocks and searchbar-->
+      <!--used bootstrap and angular material to make this-->
     <mat-form-field appearance="standard">
         <mat-label>Search</mat-label>
         <input style= "color: white;" matInput (keyup)="applyFilter($event)" placeholder="Ex. Bitcoin" #input>
