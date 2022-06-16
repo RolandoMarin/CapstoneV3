@@ -14,12 +14,16 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import { StockListComponent } from './stock-list/stock-list.component';
 import { StockDetailsComponent } from './stock-details/stock-details.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [					
     AppComponent,
     StockListComponent,
-    StockDetailsComponent
+    StockDetailsComponent,
+    LoginComponent,
+      SignupComponent
    ],
   imports: [
     BrowserModule,

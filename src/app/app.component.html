@@ -1,10 +1,16 @@
 <mat-toolbar>
 
-  <span>CryptoAdvisorV3</span>
+  <button mat-icon-button class="Cryptoadvisorbutton" aria-label="directs to home" >
+    <a routerLink="/stock-list" routerLinkActive="active" >CryptoAdvisorV3</a> 
+  </button>
+
   <span class="example-spacer"></span>
 
-  <button mat-icon-button class="loginbutton" aria-label="directs to login">
-    <span>Login</span>
+  <button mat-icon-button class="loginbutton" aria-label="directs to login" >
+    <a routerLink="/login" routerLinkActive="active" >Login</a> 
+  </button>
+  <button mat-icon-button class="signuputton" aria-label="directs to signup" >
+    <a routerLink="/signup" routerLinkActive="active" >signup</a> 
   </button>
 </mat-toolbar>
 <router-outlet></router-outlet>
